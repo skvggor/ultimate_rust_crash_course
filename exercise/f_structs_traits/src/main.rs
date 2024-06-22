@@ -48,7 +48,7 @@ fn main() {
     println!("Bunny nibbles for awhile: {:?}", carrot);
 
     fn bunny_nibbles<T: Bite>(item: &mut T) {
-        for i in 0..9 {
+        for _i in 0..9 {
             item.bite();
         }
     }
